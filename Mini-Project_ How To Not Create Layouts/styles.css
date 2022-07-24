@@ -3,8 +3,108 @@
     padding: 0;                /* Always Start your CSS Style Sheet With This Properties */ 
     box-sizing: border-box;
 }
+.clear
+{
+    clear: both;
+}
 
 
-html{
+html
+{
     font-size: 62.5%; /* use this For Rem, Em units it means 1 Rem= 10px */
+}
+
+h1
+{
+    font-size: 2.8rem;
+}
+
+h2
+{
+    font-size: 2.8rem;
+    padding: 5rem 0rem;
+}
+a
+{
+color: white;
+text-decoration: none;
+font-size:2.4rem
+}
+
+h3
+{
+    font-size: 4rem;
+}
+button
+{
+    font-size: 1.8rem;
+}
+nav 
+{
+    padding: 3rem;
+    background-color: rgb(61, 81, 102);
+    color:white
+}
+
+nav h1
+{
+    float: left;
+}
+
+nav ul
+{
+    float: right;
+    list-style: none;
+}
+
+nav li
+{
+    float: left;
+    margin: 0rem 4rem;
+}
+
+.hero-section
+{
+background-image: url("media/pexels-chan-walrus-958545.jpg");
+height: 70rem;
+background-position: center;
+background-size: cover;
+text-align: center;
+color:white;
+padding-top: 25rem;
+text-shadow: 5px 5px 1px black;
+}    
+
+.hero-section button
+{
+        margin-top: 4rem;
+        padding: 1rem 4rem;
+        cursor: pointer;
+        border: none;
+    }
+    form{
+        text-align: center;
+    }
+
+form input,form label,form textarea
+{
+display: block;
+font-size: 2.4rem
+}
+form input,form textarea
+{
+    margin: 2rem auto;
+    width: 50%;
+}
+form button{
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    background-color: blue;
+    color:aliceblue
+}
+.form-section h2{
+    text-align: center;
 }
