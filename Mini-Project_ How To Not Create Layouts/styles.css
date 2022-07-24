@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;                /* Always Start your CSS Style Sheet With This Properties */ 
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%; /* use this For Rem, Em units it means 1 Rem= 10px */
+}
