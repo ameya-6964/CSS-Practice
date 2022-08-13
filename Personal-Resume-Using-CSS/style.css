@@ -14,8 +14,8 @@ body::-webkit-scrollbar {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://devtechnosys.com/insights/wp-content/uploads/2022/01/Hire-React-Native.gif);
-   background-size: cover;
+    background-image: url(media/banner2.gif);
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 /* Horizontal Lists */
 
 .bars{
-    color: white;
+    color: black;
     margin: 0;
     margin-right: 5%;
     display: none;
@@ -71,15 +71,13 @@ body::-webkit-scrollbar {
 .no-list-style li a{
     list-style: none;
     color: white;
-    text-decoration:none;
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    text-shadow: 3px 3px 3px black;
+    text-decoration: none;
 }
 
 .horizontal-list {
     padding-left: 0px;
     margin: 0px;
+    font-weight: 50px;
 }
 
 .horizontal-list li {
@@ -89,12 +87,12 @@ body::-webkit-scrollbar {
 
 
 .nav-menu li a {
-    transition: color 0.5s, border-bottom 4s;
+    transition: color 0.5s,
 }
 
 .nav-menu li a:hover {
-    color: lightgrey;
-    border-bottom: 1px solid black;
+    color: gray
+    
 }
 
 
@@ -110,18 +108,12 @@ body::-webkit-scrollbar {
     color: white;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    position: relative;
-    bottom: 45px;
-    text-shadow: 5px 5px 5px black;
 }
 
 .social-icons li a i {
     padding: 10px;
     font-size: 1rem;
     border-radius: 50%;
-    position: relative;
-    bottom: 45px;
-    text-shadow: 5px 5px 5px black;
 }
 
 .social-icons li a i:hover {
@@ -192,8 +184,8 @@ section:nth-child(2n + 1) {
     width: 70%;
     text-align: justify;
     color: grey;
-    line-height: 3rem;
-    font-size: 2rem;
+    line-height: 28px;
+    font-size: 1.1rem;
     margin: auto;
 }
 
@@ -591,11 +583,13 @@ button:focus {
     .bars {
         display: block;
     }
-    
-    
-    .nav-menu {
-        display: none;
-    } 
+
+    #body-header
+     {
+        width: auto;
+        height: 65vh;
+      }
+     
 }
 
 
